@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hbtruong-reflex</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_mode">Single mode</string>
+    <string name="title_activity_gameshow">Gameshow mode</string>
+    <string name="title_activity_view_stats">View Stats</string>
+</resources>

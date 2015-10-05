@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hbtruong.assignment1.GameshowActivity"
+    >
+
+    <TextView
+        android:text="Ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_ready"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_click"
+        android:text="Click me"
+        android:layout_centerInParent="true"
+        />
+        <!-- LinearLayout to display number of items in a row, use RelativeLayout to center -->
+        <!-- layout_gravity not working for RelativeLayout -->
+</RelativeLayout>
